@@ -3283,7 +3283,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_BJT:2N3906"
+		(symbol "Transistor_BJT:MMBT3906"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -3300,7 +3300,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N3906"
+			(property "Value" "MMBT3906"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3309,7 +3309,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3320,7 +3320,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+			(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3330,7 +3330,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, TO-92"
+			(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3348,7 +3348,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3357,10 +3357,22 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N3906_0_1"
+			(symbol "MMBT3906_0_1"
 				(polyline
 					(pts
-						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905)
 					)
 					(stroke
 						(width 0.508)
@@ -3384,7 +3396,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 0.635 -0.635) (xy 2.54 -2.54)
 					)
 					(stroke
 						(width 0)
@@ -3407,7 +3419,7 @@
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -3418,10 +3430,10 @@
 					)
 				)
 			)
-			(symbol "2N3906_1_1"
+			(symbol "MMBT3906_1_1"
 				(pin input line
 					(at -5.08 0 0)
-					(length 5.715)
+					(length 2.54)
 					(name "B"
 						(effects
 							(font
@@ -3429,7 +3441,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3465,7 +3477,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3476,7 +3488,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Transistor_FET:2N7000"
+		(symbol "Transistor_FET:2N7002"
 			(pin_names
 				(hide yes)
 			)
@@ -3492,7 +3504,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "2N7000"
+			(property "Value" "2N7002"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -3501,7 +3513,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -3512,8 +3524,8 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-				(at 0 0 0)
+			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+				(at 5.08 -3.81 0)
 				(effects
 					(font
 						(size 1.27 1.27)
@@ -3522,7 +3534,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.2A Id, 200V Vds, N-Channel MOSFET, 2.6V Logic Level, TO-92"
+			(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3531,7 +3543,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "N-Channel MOSFET Logic-Level"
+			(property "ki_keywords" "N-Channel Switching MOSFET"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3540,7 +3552,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "SOT?23*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -3549,7 +3561,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "2N7000_0_1"
+			(symbol "2N7002_0_1"
 				(polyline
 					(pts
 						(xy 0.254 1.905) (xy 0.254 -1.905)
@@ -3716,7 +3728,7 @@
 					)
 				)
 			)
-			(symbol "2N7000_1_1"
+			(symbol "2N7002_1_1"
 				(pin input line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -3727,7 +3739,7 @@
 							)
 						)
 					)
-					(number "2"
+					(number "1"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -3763,7 +3775,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -11640,82 +11652,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_FET:2N7000")
-		(at 100.33 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "5c7f3d89-5d45-42c4-8ea7-b1f9c09ada27")
-		(property "Reference" "Q3"
-			(at 106.68 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "2N7000"
-			(at 106.68 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 105.41 135.255 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.vishay.com/docs/70226/70226.pdf"
-			(at 100.33 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 100.33 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "df696e9f-2361-42aa-b7a9-762aee34a2a2")
-		)
-		(pin "2"
-			(uuid "f810a6dc-2211-48bb-8c93-dc8c9299f843")
-		)
-		(pin "3"
-			(uuid "e4bc4dbd-021e-4ef8-81b2-61abc6c539b2")
-		)
-		(instances
-			(project "8051_test"
-				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
-					(reference "Q3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Connector:Conn_01x20_Pin")
 		(at 254 55.245 0)
 		(unit 1)
@@ -12731,79 +12667,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
-		(at 85.725 109.855 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e191a78-400c-4fb9-aca0-2c4fc52049db")
-		(property "Reference" "Q1"
-			(at 81.915 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "2N3906"
-			(at 91.44 113.03 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
-			(at 87.63 104.775 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
-			(at 85.725 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 85.725 109.855 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "6fc73fab-82c0-4b71-b9f9-525fbee19ec3")
-		)
-		(pin "2"
-			(uuid "ff89916b-c3dd-4023-8558-aeff5313605d")
-		)
-		(pin "3"
-			(uuid "4240e186-cad5-49bd-92c4-7e7f7a6f2949")
-		)
-		(instances
-			(project "8051_test"
-				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 97.155 119.38 270)
 		(unit 1)
@@ -13148,6 +13011,79 @@
 			(project "8051_test"
 				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
 					(reference "AVR-ISP1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Transistor_BJT:MMBT3906")
+		(at 85.725 109.855 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "ba6a0434-17cb-4ed1-bfc5-1390817dac4e")
+		(property "Reference" "Q1"
+			(at 81.788 110.236 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "MMBT3906"
+			(at 93.98 109.474 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 87.63 104.775 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
+			(at 85.725 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
+			(at 85.725 109.855 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7d487f84-4cd8-4e5d-bfeb-d41d5cc61e69")
+		)
+		(pin "3"
+			(uuid "9995f3f0-d28c-4d48-990d-2b8ac49d5d9d")
+		)
+		(pin "2"
+			(uuid "151e3c52-c654-4f5f-a7fd-0999fc854049")
+		)
+		(instances
+			(project ""
+				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
+					(reference "Q1")
 					(unit 1)
 				)
 			)
@@ -13685,6 +13621,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_FET:2N7002")
+		(at 100.33 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "e2c8f262-cd7b-4196-9c20-26c8ab501ffd")
+		(property "Reference" "Q3"
+			(at 106.68 132.0799 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "2N7002"
+			(at 106.68 134.6199 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_SMD:SOT-23"
+			(at 105.41 135.255 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/NDS7002A-D.PDF"
+			(at 105.41 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "0.115A Id, 60V Vds, N-Channel MOSFET, SOT-23"
+			(at 100.33 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3151468d-6f9b-482e-8628-bd2256a1155b")
+		)
+		(pin "3"
+			(uuid "3fa0a6f0-1a52-48f4-8e20-9b32fcfdc416")
+		)
+		(pin "2"
+			(uuid "90ce54be-1cb4-4ac2-86a4-66bdb1a10c48")
+		)
+		(instances
+			(project ""
+				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R")
 		(at 70.485 43.18 180)
 		(unit 1)
@@ -13752,17 +13764,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:2N3906")
+		(lib_id "Transistor_BJT:MMBT3906")
 		(at 81.28 125.095 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f2c519a0-742b-428d-afbb-419ff96a96f7")
+		(uuid "f08ae3f7-1f17-4687-b65a-74c2261f7087")
 		(property "Reference" "Q2"
-			(at 75.565 123.825 0)
+			(at 75.565 123.8249 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13770,8 +13781,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "2N3906"
-			(at 75.565 126.365 0)
+		(property "Value" "MMBT3906"
+			(at 75.946 126.746 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13790,7 +13801,7 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/2N3906-D.PDF"
+		(property "Datasheet" "https://www.onsemi.com/pdf/datasheet/pzt3906-d.pdf"
 			(at 81.28 125.095 0)
 			(effects
 				(font
@@ -13800,7 +13811,7 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "-0.2A Ic, -40V Vce, Small Signal PNP Transistor, SOT-23"
 			(at 81.28 125.095 0)
 			(effects
 				(font
@@ -13810,16 +13821,16 @@
 			)
 		)
 		(pin "1"
-			(uuid "ffb2f78f-9a3a-487e-ad56-702901927f63")
-		)
-		(pin "2"
-			(uuid "455267cf-8a08-4c35-909a-1c17e5da4fec")
+			(uuid "7d487f84-4cd8-4e5d-bfeb-d41d5cc61e69")
 		)
 		(pin "3"
-			(uuid "3754a22f-84b1-448a-9143-0c9547d85b61")
+			(uuid "9995f3f0-d28c-4d48-990d-2b8ac49d5d9d")
+		)
+		(pin "2"
+			(uuid "151e3c52-c654-4f5f-a7fd-0999fc854049")
 		)
 		(instances
-			(project "8051_test"
+			(project ""
 				(path "/be4ffa1f-033e-4d23-a6bf-4fadd9d0d171"
 					(reference "Q2")
 					(unit 1)
