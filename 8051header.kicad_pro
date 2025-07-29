@@ -472,7 +472,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "8051_test.kicad_pro",
+    "filename": "8051header.kicad_pro",
     "version": 3
   },
   "net_settings": {
